@@ -2,8 +2,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine, Area } from 'recharts';
 import { Play, Info, Calculator, Trophy, Skull, Sparkles, Shield, Sword, ChevronRight } from 'lucide-react';
 
-const CHAR_MAX = 8; // 명함(1) + 7돌
-const WEP_MAX = 6;  // 명함(1) + 5초월
+const CHAR_MAX = 7; // 명함(1) + 6돌
+const WEP_MAX = 5;  // 명함(1) + 4초월
 
 export default function App() {
   const [charCopies, setCharCopies] = useState(1);
