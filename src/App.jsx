@@ -172,7 +172,6 @@ export default function App() {
                     <option value={5} className="bg-slate-900 text-slate-200">4단계 돌파 (5장)</option>
                     <option value={6} className="bg-slate-900 text-slate-200">5단계 돌파 (6장)</option>
                     <option value={7} className="bg-slate-900 text-slate-200">6단계 돌파 (7장)</option>
-                    <option value={8} className="bg-slate-900 text-slate-200">풀단계 돌파 (8장)</option>
                   </select>
                   <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500 group-hover:text-cyan-400 transition-colors">
                     <ChevronRight className="w-5 h-5 rotate-90" />
@@ -198,7 +197,6 @@ export default function App() {
                     <option value={3} className="bg-slate-900 text-slate-200">2단계 초월 (3장)</option>
                     <option value={4} className="bg-slate-900 text-slate-200">3단계 초월 (4장)</option>
                     <option value={5} className="bg-slate-900 text-slate-200">4단계 초월 (5장)</option>
-                    <option value={6} className="bg-slate-900 text-slate-200">풀단계 초월 (6장)</option>
                   </select>
                   <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500 group-hover:text-purple-400 transition-colors">
                     <ChevronRight className="w-5 h-5 rotate-90" />
